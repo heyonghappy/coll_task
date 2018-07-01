@@ -1,0 +1,16 @@
+{
+  "mysql":{
+    "userName":"root",
+    "passWord":"123456",
+    "dbName":"coll_task",
+    "host":"localhost",
+    "port":"3306"
+  },
+  "redis": {
+    "keyPrefix": "[coll_task]",
+    "port": 6379,
+    "host": "localhost",
+    "password": "",
+    "db": 0
+}
+}
