@@ -3,7 +3,7 @@
 module.exports = class collTaskListController{
 
   static async getList(ctx){
-    ctx.body='collTaskListController'
+    ctx.render('index',{title:'首页'})
   }
 
   static async getDetails(ctx){
